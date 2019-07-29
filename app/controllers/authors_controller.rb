@@ -14,6 +14,13 @@ class AuthorsController < ApplicationController
     else
       render :new
     end
+
+    # if @author.save
+    #   redirect_to author_path(@author)
+    # else
+    #   render :new
+    # end
+
   end
 
   private
